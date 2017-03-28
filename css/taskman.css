@@ -1,0 +1,68 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+a {
+color: #E1704B;
+transition: color 0.5s ease;
+}
+a:hover{
+    cursor:pointer;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+div.task label.checkbox{
+	border: 1px solid #DDD;
+	border-left-width: 3px;
+	padding: 9px 9px 9px 29px;
+	background-color: #FFF;
+	margin-top: 10px;
+	position: relative;
+	font-weight: normal;
+}
+.header-color-blue {
+    background: #307ECC;
+    border: 1px solid #307ECC;
+    box-sizing: content-box;
+    position: relative;
+    min-height: 38px;
+    padding: 0 12px 0;
+    color: #fff;
+}
+.filter{
+    margin-top: 6px;
+}
+.header-color-blue+.widget-body {
+border-color: #307ECC;
+margin-top: -10px;
+padding: 20px 10px;
+}
+.widget-body {
+border: 1px solid #CCC;
+border-top: 0;
+background-color: #FFF;
+}
+.strike{
+	text-decoration:line-through;
+}
+.header-elements-margin {
+	margin: 5px;
+}
+.add-task{
+	margin-top: 10px;
+}
+.nav-button-margin{
+	margin: 10px 20px 0 0;
+}
+.navbar{
+border-radius: 0;
+background: #438EB9;
+color: #fff;
+}
+.navbar .navbar-brand {
+color: #FFF;
+font-size: 24px;
+text-shadow: none;
+}

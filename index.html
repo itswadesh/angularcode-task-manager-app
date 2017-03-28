@@ -1,0 +1,40 @@
+<html ng-app="myApp">
+    <head>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/taskman.css"/>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700" rel="stylesheet" type="text/css">
+
+    </head>
+    <body ng-controller="tasksController">
+    
+    <div class="navbar navbar-default" id="navbar">
+    <div class="container" id="navbar-container">
+	<div class="navbar-header">
+		<a href="#" class="navbar-brand">
+			<small>
+				<i class="glyphicon glyphicon glyphicon-log-out"></i>
+				AngularCode / Angular JS Demos 
+			</small>
+		</a><!-- /.brand -->
+		
+	</div><!-- /.navbar-header -->
+	<div class="navbar-header pull-right" role="navigation">
+        <a href="http://angularcode.com/simple-task-manager-application-using-angular-js-php-mysql/" class="btn btn-sm btn-danger nav-button-margin"> <i class="glyphicon glyphicon-book"></i>&nbsp;Tutorial Link</a>
+        <a href="http://angularcode.com/download-link/?url=https://app.box.com/s/8e2hjljpurg47wi8h0ec" class="btn btn-sm btn-warning nav-button-margin"> <i class="glyphicon glyphicon-download"></i>&nbsp;Download Project</a>
+	</div>
+	</div>
+	</div>
+	<div class="row">
+    	<div class="container">
+    		<blockquote><h1><a href="http://angularcode.com/simple-task-manager-application-using-angular-js-php-mysql/">Task Manager Application using Angular JS</a></h1></blockquote>
+    		<div class="col-sm-9">
+    			<div ng-include src="'partials/task.html'"></div>
+    		</div>
+    	
+    	</div>
+    </div>
+    	
+	<script type="text/javascript" src="js/angular.min.js"></script>
+	<script type="text/javascript" src="app/app.js"></script>
+    </body>
+</html>
